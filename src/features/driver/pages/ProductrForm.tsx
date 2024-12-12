@@ -106,7 +106,7 @@ const DriverForm = (props: any) => {
             ]}
             onClick={(index) => setState({ ...state, tabIndex: index })}
           />
-          <div className="p-[30px] py-[10px]">
+          <div className="pl-[25px] py-[10px]">
             {state.tabIndex === 0 && <General control={control} register={register} watch={watch} setValue={setValue}/>}
           </div>
         </div>
