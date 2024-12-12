@@ -10,7 +10,7 @@ import Dashboard from "./Dashboard";
 
 const Router = () => {
   const [cookies, setCookie] = useCookies(["token"]);
-
+console.log(setCookie);
   return (
     <AnimatePresence>
       <BrowserRouter>

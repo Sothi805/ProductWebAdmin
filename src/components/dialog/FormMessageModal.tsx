@@ -1,4 +1,4 @@
-import React, { FC, RefObject } from 'react'
+import React, { RefObject } from 'react'
 
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
