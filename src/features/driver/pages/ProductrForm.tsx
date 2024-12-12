@@ -110,7 +110,7 @@ const DriverForm = (props: any) => {
             {state.tabIndex === 0 && <General control={control} register={register} watch={watch} setValue={setValue}/>}
           </div>
         </div>
-        <div className="absolute bottom-6 w-full md:fixed sm:w-[90%] px-8 ">
+        <div className="sticky bottom-4 w-[98%] md:fixed sm:w-[90%] px-8 ">
           <div className="backdrop-blur-sm bg-white p-2 rounded-lg shadow-lg z-[1000] flex justify-between gap-3 border drop-shadow-sm">
             <div className="flex items-center w-full justify-between">
               <button
