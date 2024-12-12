@@ -70,8 +70,10 @@ const request = async (
             reject("Request timed out.");
             return;
           }
-
-          // Safely check the structure of the error response
+          if (error.code === "ERR_BAD_REQUEST") {
+            reject((error.response?.data as any)?.message);
+            return;
+          }
           const errorMessage = getErrorMessage(error);
           reject(errorMessage);
         });

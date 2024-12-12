@@ -37,6 +37,8 @@ export default function LoginPage() {
       localStorage.setItem("username", data?.username);
       navigate("/");
     } catch (error: any) {
+      console.log(error);
+      
       if (error instanceof Error) {
         setError("api", { message: error?.message });
       }
