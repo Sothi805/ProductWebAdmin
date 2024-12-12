@@ -68,7 +68,7 @@ const StudentDetailPages = () => {
             ]}
             onClick={(index) => setState({ ...state, tapIndex: index })}
           />
-          <div className="flex gap-6">
+          <div className="flex gap-6 pr-6">
             <div
               className={` ml-[20px] ${
                 small ? "min-w-[50px]" : "min-w-[230px] "
@@ -77,7 +77,7 @@ const StudentDetailPages = () => {
               <div
                 className={` ${
                   small ? "min-w-[50px] transition-all duration-300 pl-0" : "min-w-[230px]"
-                } relative mt-[20px] -ml-[0px] p-2 mx-[20px] bg-white shadow-sm rounded-md border h-[70vh] flex flex-col`}
+                } fixed mt-[20px] -ml-[0px] p-2 mx-[20px] bg-white shadow-sm rounded-md border h-[70vh] flex flex-col`}
               >
                 <span
                   className="absolute flex justify-center items-center -right-[10px] top-[20px] cursor-pointer w-[25px] rounded-full border border-gray-300 h-[25px] bg-white"
