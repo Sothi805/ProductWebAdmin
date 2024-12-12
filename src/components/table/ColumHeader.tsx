@@ -22,7 +22,8 @@ const ColumnHeader: React.FC<{
     const { getState, setColumnOrder } = table
     const { columnOrder } = getState()
     const { column } = header;
-
+  console.log(index);
+  
     const reorderColumn = (
         draggedColumnId: string,
         targetColumnId: string,

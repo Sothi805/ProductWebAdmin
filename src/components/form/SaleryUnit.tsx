@@ -1,10 +1,6 @@
 
 
-import React from 'react'
 import { CustomAsyncSelect2 } from '@/interface/select2/CustomAsyncSelect'
-import { useAppDispatch, useAppSelector } from '@/redux/hook';
-import { asyncGetAllDepartment } from '@/redux/slice/Department_slice';
-import { asyncGetAllBranch } from '@/redux/slice/Branch_slice';
 import { SelectProps } from '@/type';
 
 export default function SaleryUnit(props: SelectProps) {

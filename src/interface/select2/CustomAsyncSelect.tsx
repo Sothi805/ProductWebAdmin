@@ -135,6 +135,7 @@ export function CustomAsyncSelect2(props: CustomAsyncSelect2Props) {
             };
           },
           input: (provided: any, state: any) => ({
+            ...state,
             ...provided,
             paddingBottom: "0px",
           }),

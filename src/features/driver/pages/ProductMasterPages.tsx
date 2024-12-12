@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { ReactComponent as SearchIcon } from "@/assets/svg/search.svg";
 import { ReactComponent as FilterIcon } from "@/assets/svg/filter.svg";
 import TanStackDataTable from "@/components/table/DataTable";
@@ -6,7 +6,7 @@ import { ColumnDef } from "@tanstack/react-table";
 import { useNavigate } from "react-router-dom";
 import Alert from "@/components/alerts";
 import Input from "@/components/form/Input";
-import { displayTextDate, getQueryString } from "@/utilies";
+import { displayTextDate } from "@/utilies";
 import { Controller, useForm } from "react-hook-form";
 import { UseListHook } from "../hook/UseStudentListHook";
 import LoadingDialog from "@/components/dialog/LoadingDialog";
@@ -104,7 +104,6 @@ function DriverMasterPage() {
         header: "Action",
         footer: "Action",
         cell: (props): any => {
-          const value: any = props?.getValue();
           return (
             <>
               <div className="flex justify-center gap-3">

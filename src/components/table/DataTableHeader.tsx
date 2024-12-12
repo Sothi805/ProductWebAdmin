@@ -3,7 +3,6 @@
 import React from "react";
 
 import { ReactComponent as PlusIcon } from "@/assets/svg/plus.svg";
-import { ReactComponent as SettingIcon } from "@/assets/svg/colmun-setting.svg";
 import { Menu, Transition } from "@headlessui/react";
 import { Table } from '@tanstack/react-table';
 import { useLocation, useNavigate } from "react-router-dom";

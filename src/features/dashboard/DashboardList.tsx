@@ -1,5 +1,4 @@
 import request from '@/services';
-import React from 'react'
 import { useQuery } from 'react-query';
 import { useNavigate } from 'react-router-dom';
 

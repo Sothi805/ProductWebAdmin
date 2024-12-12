@@ -21,7 +21,7 @@ export default function TextArea(props: InputProps) {
             {props?.label && <label htmlFor="search" className="text-gray-500 text-base">{props?.label}</label>}
 
             <div className="w-full h-full">
-                <textarea placeholder={props.placeholder ?? 'Remarks'} className="w-full h-full textarea textarea-bordered textarea-dm" {...props.inputProps}></textarea>
+                {/* <textarea placeholder={props.placeholder ?? 'Remarks'} className="w-full h-full textarea textarea-bordered textarea-dm" {...props.inputProps}></textarea> */}
             </div>
         </div>
     )

@@ -1,9 +1,7 @@
 import React, { useMemo } from "react";
 import { ReactComponent as LogOutIcon } from "@/assets/svg/log-out.svg";
-import { ReactComponent as MenuIcon } from "@/assets/svg/menu.svg";
 import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
-import request from "@/services";
 import LoadingDialog from "../dialog/LoadingDialog";
 
 type HeaderProps = {
@@ -29,7 +27,7 @@ export default function Header(props: HeaderProps) {
   //     }
 
   // }, [navigate, cookies.token, removeCookie]);
-
+  console.log(setCookie);
   const onLogOut = React.useCallback(async () => {
     setLoading(true);
     setTimeout(() => {
@@ -37,7 +35,7 @@ export default function Header(props: HeaderProps) {
       setLoading(false);
     }, 2000);
   }, [navigate, cookies.token, removeCookie]);
-    
+
   return (
     // <header className="w-full py-2 pr-8 pl-2 bg-white  shadow-sm border-b flex justify-between max-h-[3rem]">
     //   <LoadingDialog open={loading} />

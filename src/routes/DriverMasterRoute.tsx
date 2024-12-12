@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 
 import DriverMasterPage from "@/features/driver/pages/ProductMasterPages";
 import DriverForm from "@/features/driver/pages/ProductrForm";
-import DriverDetailPages from "@/features/driver/pages/ProductDetailPages";
 import StudentDetailPages from "@/features/driver/pages/ProductDetailPages";
 import DashboardList from "@/features/driver/Dashboard";
 

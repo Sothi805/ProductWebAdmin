@@ -1,10 +1,5 @@
 import React from 'react'
-import { ReactComponent as SearchIcon } from "@/assets/svg/search.svg";
-import { ReactComponent as PlusIcon } from "@/assets/svg/plus.svg";
 import { ReactComponent as DownNewIcon } from "@/assets/svg/downNew.svg";
-import { ReactComponent as Righticon } from "@/assets/svg/right.svg";
-import { ReactComponent as Lefticon } from "@/assets/svg/left.svg";
-import { ReactComponent as Edit } from "@/assets/svg/edit_square_FILL0_wght400_GRAD0_opsz48.svg";
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 const Activeheader = (props: any) => {
   const [collapse, setCollapse] = React.useState(false);

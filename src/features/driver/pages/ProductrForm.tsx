@@ -20,7 +20,7 @@ const DriverForm = (props: any) => {
   const { id } = useParams();
   const [loading, setLoading] = useState(false);
 
-  const { register, watch, handleSubmit, reset, control, setValue, setError } =
+  const { register, watch, handleSubmit, reset, control, setValue } =
     useForm();
 
     const onSubmit = async (payload: any) => {

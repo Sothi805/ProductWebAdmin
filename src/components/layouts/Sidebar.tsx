@@ -163,7 +163,7 @@
 //     return <h3 className={` font-bold text-base  ${props.collapse ? '' : 'px-4'} mb-2 `}>{props.title}</h3>
 // }
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const SideBar = (props: any) => {

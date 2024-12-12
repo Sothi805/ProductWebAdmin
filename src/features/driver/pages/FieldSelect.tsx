@@ -1,7 +1,5 @@
 
 
-import DepartmentSelectBox from '@/components/form/DepartmentSelectBox';
-import Input from '@/components/form/Input';
 import { CustomAsyncSelect2 } from '@/interface/select2/CustomAsyncSelect'
 import { SelectProps } from '@/type';
 
